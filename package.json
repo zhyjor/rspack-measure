@@ -58,6 +58,8 @@
     "workbox-webpack-plugin": "^6.4.1"
   },
   "scripts": {
+    "build:rs": "rspack build",
+    "dev:rs": "rspack server",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
@@ -135,5 +137,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@rspack/cli": "^0.1.1"
   }
 }
